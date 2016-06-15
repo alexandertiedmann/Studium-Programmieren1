@@ -1,0 +1,1 @@
+größter gemeinsamer Teiler

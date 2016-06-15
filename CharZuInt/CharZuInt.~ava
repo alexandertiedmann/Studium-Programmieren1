@@ -1,0 +1,19 @@
+/*
+Programm: CharZuInt
+Beschreibung: 
+Addiert den ASCII Wert hinter einem Char-Wert zu einem Integer 
+und gibt das Ergebnis aus
+
+Autor: Alexander Tiedmann (556127)
+Version: 1.0
+*/
+public class CharZuInt {
+  public static void main ( String [] args ) {
+    
+    char buchstabe = 'F';//ASCII Wert -> 70
+    int zahl = 13; 
+    int summe = buchstabe + zahl; // summe wird zu buchstabe (70) + zahl (13)
+    
+    System.out.println(summe);  //Ausgabe des Ergebnisses
+}
+}

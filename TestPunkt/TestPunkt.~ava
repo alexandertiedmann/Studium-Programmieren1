@@ -1,0 +1,20 @@
+public class TestPunkt {
+  public static void main (String[] args){
+    Punkt p1 = new Punkt();
+    p1.setX(1); p1.setY(2);
+    /* Lassen Sie hier die x- und y-Koordinaten von p1 auf der
+    Konsole ausgeben, aber in einer Zeile und durch Komma
+    getrennt */
+    System.out.println("X von Punkt1: " + p1.getX() + "| Y von Punkt2: " + p1.getY());
+    
+    p1.verschiebe(2,2);
+    System.out.println(p1.getX()); //Ausgabe: 3
+    System.out.println(p1.getY()); //Ausgabe: 4
+    //Verschieben Sie p1 um den Vektor (1,-3)
+    //Lassen Sie die x- und y-Koordinaten von p1 ausgeben
+    //Erzeugen Sie den zweiten Punkt p2 = (3,5)
+    //Verschieben Sie p2 um den Vektor (0,0)
+    //Lassen Sie die x- und y-Koordinaten von p2 ausgeben
+    //Erzeugen Sie den dritten Punkt p3 = (2,4)
+  }
+}
