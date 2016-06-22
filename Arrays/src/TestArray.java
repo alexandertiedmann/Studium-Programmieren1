@@ -15,7 +15,6 @@ public class TestArray {
         arrayU [0] = new int [2];
         arrayU [1] = new int [3];
         arrayU [2] = new int [1];
-
         arrayU [0][1] = 2;
         arrayU [1][0] = 3;
         arrayU [1][2] = 5;
