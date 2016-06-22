@@ -1,11 +1,3 @@
-/*
-Programm: Nutzereingabe
-Beschreibung: 
-Summiert zwei vom Nutzer eingegebene Zahlen
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class Nutzereingabe {
   public static void main(String[] args) {

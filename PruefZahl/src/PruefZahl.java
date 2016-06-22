@@ -1,11 +1,3 @@
-/*
-Programm: PruefZahl
-Beschreibung:
-Prüft ob eine Zahl ein Exponent der Basis ist
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 import java.lang.Math;
 public class Main {

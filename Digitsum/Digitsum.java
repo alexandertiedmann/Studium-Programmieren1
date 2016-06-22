@@ -1,13 +1,3 @@
-/*
-Programm: Digitsum
-Beschreibung: 
-Gibt alle Zahlen aus deren Quersumme 15 ist
-und
-alle Zahlen deren Quersumme ein Vielfaches von 7 ist
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 public class Digitsum {
   public static void main(String[] args) {
     final int MAX = 1000; 

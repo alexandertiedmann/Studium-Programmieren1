@@ -1,12 +1,3 @@
-/*
-Programm: Collatz
-Beschreibung: 
-Gibt die letzte Zahl der Zahlenfolge
-mithilfe des Collatz Problem aus
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class Collatz {
   public static void main(String[] args) {

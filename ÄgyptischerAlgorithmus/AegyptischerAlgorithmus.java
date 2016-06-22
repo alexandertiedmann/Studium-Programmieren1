@@ -1,12 +1,3 @@
-/*
-Programm: AegyptischerAlgorithmus
-Beschreibung: 
-Multipliziert zwei natürliche Zahlen
-nach dem Ägyptischen Algorithmus
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class AegyptischerAlgorithmus {
   public static void main ( String [] args ) {

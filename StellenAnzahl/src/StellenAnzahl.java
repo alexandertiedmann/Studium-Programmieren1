@@ -1,12 +1,3 @@
-/*
-Programm: StellenAnzahl
-Beschreibung:
-bestimmt die Anzahl der Stellen für
-eine belibiege natürliche Zahl > 0
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class StellenAnzahl {
     public static void main(String[] args) {

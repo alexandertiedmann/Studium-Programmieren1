@@ -1,11 +1,3 @@
-/*
-Programm: Quersumme
-Beschreibung: 
-Berechnet die Quersumme eine Zahl
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class Quersumme {
   public static void main(String[] args) {

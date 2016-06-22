@@ -1,11 +1,3 @@
-/*
-Programm: ZahlUmdrehen
-Beschreibung:
-dreht eine belibiege natürliche Zahl um
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class ZahlUmdrehen {
     public static void main(String[] args) {

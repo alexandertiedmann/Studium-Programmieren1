@@ -1,11 +1,3 @@
-/*
-Programm: Oktalrechner
-Beschreibung: 
-Wandelt eine Oktalzahl in eine Dezimalzahl um
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class Oktalrechner {
   public static void main(String[] args) {

@@ -1,12 +1,3 @@
-/*
-Programm: CharZuInt
-Beschreibung: 
-Addiert den ASCII Wert hinter einem Char-Wert zu einem Integer 
-und gibt das Ergebnis aus
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 public class CharZuInt {
   public static void main ( String [] args ) {
     

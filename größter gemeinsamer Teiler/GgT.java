@@ -1,12 +1,3 @@
-/*
-Programm: GgT
-Beschreibung: 
-Berechnet den Größten gemeinsamen Teiler
-zweier Zahlen
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class GgT {
   public static void main(String[] args) {

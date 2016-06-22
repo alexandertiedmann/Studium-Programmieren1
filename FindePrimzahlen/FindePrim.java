@@ -1,12 +1,3 @@
-/*
-Programm: FindePrim
-Beschreibung: 
-Findet und summiert alle
-Primzahlen von 1 bis 100
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 public class FindePrim {
   public static void main(String[] args) {
     int max = 100;

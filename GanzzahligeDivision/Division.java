@@ -1,12 +1,3 @@
-/*
-Programm: Division
-Beschreibung: 
-Führt für zwei Double Werte eine
-ganzzahlige Division durch
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class Division {
   public static void main(String[] args) {

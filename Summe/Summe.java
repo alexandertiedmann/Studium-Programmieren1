@@ -1,11 +1,3 @@
-/*
-Programm: Summe
-Beschreibung: 
-Berechnet die Summe von 0 bis n
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class Summe {
   public static void main(String[] args) {

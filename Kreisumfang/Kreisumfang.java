@@ -1,11 +1,3 @@
-/*
-Programm: Kreisumfang
-Beschreibung: 
-Berechnet den Umfang eines Kreises
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class Kreisumfang {
   public static void main(String[] args) {

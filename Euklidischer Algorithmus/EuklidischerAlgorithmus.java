@@ -1,12 +1,3 @@
-/*
-Programm: EuklidischerAlgorithmus
-Beschreibung: 
-Berechnet den größten gemeinsamen Teiler 
-aus zwei natürlichen Zahlen
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 public class EuklidischerAlgorithmus {
   public static void main ( String [] args ) {
     //Initialisierung der Variablen:

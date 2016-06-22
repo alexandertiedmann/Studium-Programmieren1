@@ -1,11 +1,3 @@
-/*
-Programm: Fakultaet
-Beschreibung: 
-Berechnet für einen Wert n die Fakultaet (n!)
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner;
 public class Fakultaet {
   public static void main(String[] args) {

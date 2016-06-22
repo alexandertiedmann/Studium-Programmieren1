@@ -1,12 +1,3 @@
-/*
-Programm: Sortieren
-Beschreibung: 
-Sortiert drei natürliche Zahlen der Größe nach
-und gibt sie aus
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.util.Scanner; //Scanner Klasse importieren
 public class Sortierung {
   public static void main ( String [] args ) {

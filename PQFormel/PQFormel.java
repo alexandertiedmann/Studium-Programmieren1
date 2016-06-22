@@ -1,14 +1,3 @@
-/*
-Programm: PQFormel
-Beschreibung: 
-Bildet aus der Quadratischen Gleichung
-2x^2-4x-16=0
-die Normalform und berechnet die Nullstellen
-mithilfe der PQ-Formel
-
-Autor: Alexander Tiedmann (556127)
-Version: 1.0
-*/
 import java.lang.Math;
 public class PQFormel {
   public static void main(String[] args) {
