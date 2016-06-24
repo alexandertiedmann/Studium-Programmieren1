@@ -10,7 +10,16 @@ public class Arrays {
         return rueckArray;
     }
 
-    public String arrayToString(double[] zahlen){
+    public String ArrayToString(double[] zahlen){
+        //statt einen String zurückzugeben hätte an dieser Stelle auch direkt ausgegeben werden können
+        String text = new String();
+        for (int i=0; i < zahlen.length; i++){
+            text = text + zahlen[i] + ",";
+        }
+        return text;
+    }
+
+    public String ArrayToString(int[] zahlen){
         //statt einen String zurückzugeben hätte an dieser Stelle auch direkt ausgegeben werden können
         String text = new String();
         for (int i=0; i < zahlen.length; i++){
@@ -42,17 +51,8 @@ public class Arrays {
         //das Arrays in der 2. dimension ausgeben
         //da alle Zahlen gleich viele Stellen haben, hier kein printf
         for (int i=0; i < zw.length;i++){
-            System.out.println(intArrayToString(zw[i]));
+            System.out.println(ArrayToString(zw[i]));
         }
-    }
-
-    public String intArrayToString(int[] zahlen){
-        //statt einen String zurückzugeben hätte an dieser Stelle auch direkt ausgegeben werden können
-        String text = new String();
-        for (int i=0; i < zahlen.length; i++){
-            text = text + zahlen[i] + ",";
-        }
-        return text;
     }
 
     private int groesste(int[] zahlen) {

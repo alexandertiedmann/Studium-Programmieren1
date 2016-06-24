@@ -3,7 +3,7 @@ public class TestArray {
         System.out.println("##################double Array##################");
         double[] doubleArray = {1.5,2.7,3.5};
         Arrays ar = new Arrays();
-        System.out.println("Umgekehrtes Array: " + ar.arrayToString(ar.kehreUm(doubleArray)));
+        System.out.println("Umgekehrtes Array: " + ar.ArrayToString(ar.kehreUm(doubleArray)));
         System.out.println("Mittelwert des Arrays: " + ar.mittelwert(doubleArray));
 
         System.out.println("##################int Array##################");
