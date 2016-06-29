@@ -29,24 +29,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Arrays.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Arrays.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
-              <folding />
+              <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
+              <folding>
+                <element signature="e#1822#1860#0" expanded="false" />
+                <element signature="docComment;method#verkette#0;class#Arrays#0" expanded="false" />
+                <element signature="docComment;method#suche#0;class#Arrays#0" expanded="false" />
+                <element signature="docComment;method#linSuche#0;class#Arrays#0" expanded="false" />
+                <element signature="docComment;method#binSucheIter#0;class#Arrays#0" expanded="false" />
+                <element signature="method#binSucheIter#0;class#Arrays#0" expanded="true" />
+                <element signature="docComment;method#binSuche#0;class#Arrays#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TestArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="method#main#0;class#TestArray#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,8 +77,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Arrays.java" />
         <option value="$PROJECT_DIR$/src/TestArray.java" />
+        <option value="$PROJECT_DIR$/src/Arrays.java" />
       </list>
     </option>
   </component>
@@ -622,11 +628,12 @@
       <workItem from="1466591558062" duration="6536000" />
       <workItem from="1466613786848" duration="547000" />
       <workItem from="1466761117071" duration="238000" />
+      <workItem from="1467187794589" duration="6385000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7321000" />
+    <option name="totallyTimeSpent" value="13706000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
@@ -640,7 +647,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3293979" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -664,7 +671,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -675,9 +682,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-          <folding />
+        <state relative-caret-position="400">
+          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
+          <folding>
+            <element signature="e#1822#1860#0" expanded="false" />
+            <element signature="docComment;method#verkette#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#suche#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#linSuche#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#binSucheIter#0;class#Arrays#0" expanded="false" />
+            <element signature="method#binSucheIter#0;class#Arrays#0" expanded="true" />
+            <element signature="docComment;method#binSuche#0;class#Arrays#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -685,9 +700,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
           <folding>
-            <element signature="method#main#0;class#TestArray#0" expanded="true" />
+            <element signature="e#1822#1860#0" expanded="false" />
+            <element signature="docComment;method#verkette#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#suche#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#linSuche#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#binSucheIter#0;class#Arrays#0" expanded="false" />
+            <element signature="method#binSucheIter#0;class#Arrays#0" expanded="true" />
+            <element signature="docComment;method#binSuche#0;class#Arrays#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -695,7 +732,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
           <caret line="34" column="33" selection-start-line="34" selection-start-column="33" selection-end-line="34" selection-end-column="33" />
-          <folding />
+          <folding>
+            <element signature="e#1822#1860#0" expanded="false" />
+            <element signature="docComment;method#verkette#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#suche#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#linSuche#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#binSucheIter#0;class#Arrays#0" expanded="false" />
+            <element signature="method#binSucheIter#0;class#Arrays#0" expanded="true" />
+            <element signature="docComment;method#binSuche#0;class#Arrays#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,26 +748,30 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="method#main#0;class#TestArray#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="69" column="39" selection-start-line="69" selection-start-column="39" selection-end-line="69" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="174" column="8" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
           <folding>
-            <element signature="method#main#0;class#TestArray#0" expanded="true" />
+            <element signature="e#1822#1860#0" expanded="false" />
+            <element signature="docComment;method#verkette#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#suche#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#linSuche#0;class#Arrays#0" expanded="false" />
+            <element signature="docComment;method#binSucheIter#0;class#Arrays#0" expanded="false" />
+            <element signature="method#binSucheIter#0;class#Arrays#0" expanded="true" />
+            <element signature="docComment;method#binSuche#0;class#Arrays#0" expanded="false" />
           </folding>
         </state>
       </provider>
