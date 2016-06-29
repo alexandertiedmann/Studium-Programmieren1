@@ -40,7 +40,7 @@ public class TestArray {
     private static void aufgabe116Iter(int[] intArray, Arrays ar, int suche){
         int temp = ar.binSucheIter(intArray,suche);
         if ( temp > -1 ){
-            System.out.println("Suche " + suche + ": " + temp);
+            System.out.println("Element (" + suche + ") am Index " + temp + " gefunden");
         }else{
             System.out.println("Element (" + suche + ") nicht gefunden!");
         }
@@ -48,7 +48,7 @@ public class TestArray {
     private static void aufgabe116Suche(int[] intArray, Arrays ar, int suche){
         int temp = ar.binSuche(intArray,suche);
         if ( temp > -1 ){
-            System.out.println("Suche " + suche + ": " + temp);
+            System.out.println("Element (" + suche + ") am Index " + temp + " gefunden");
         }else{
             System.out.println("Element (" + suche + ") nicht gefunden!");
         }

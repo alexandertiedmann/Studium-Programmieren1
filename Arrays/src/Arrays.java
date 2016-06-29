@@ -158,9 +158,37 @@ public class Arrays {
      * @return Position der gefundenen Zahl
      */
     public int binSucheIter(int[] zahlen, int suche){
-        int gefunden = -1;
+        int mitte = zahlen.length / 2;
+          return binSucheIter(zahlen,suche,-1,mitte,0);
+    }
 
-        return gefunden;
+    /**
+     * Zusatzmethode um weniger Parameter im binSucheIter uebergeben zu muessen
+     * @param zahlen zu durchsuchendes Array
+     * @param suche zu suchender Wert
+     * @param position Indexposition des Wertes (-1 = nicht gefunden)
+     * @param mitte naechste zu ueberpruefender Index des Arrays
+     * @param zaehler Zaehler fuer die Abbruchbedingung
+     * @return Index an dem der Wert steht oder -1 bei nicht gefundenem Wert
+     */
+    private int binSucheIter(int[] zahlen, int suche, int position, int mitte, int zaehler){
+        if (position > -1){
+            return position;
+        }
+        if (zaehler >= zahlen.length-1){
+            return -1;
+        }
+        if (zahlen[mitte] == suche){
+            position = mitte;
+            return position;
+        }
+        if (zahlen[mitte] > suche){
+            mitte = mitte / 2;
+        }else{
+            mitte = ((zahlen.length) + mitte) /2;
+        }
+        zaehler++;
+        return binSucheIter(zahlen,suche,position,mitte,zaehler);
     }
 
     /**
@@ -171,8 +199,25 @@ public class Arrays {
      * @return Position der gefundenen Zahl
      */
     public int binSuche(int[] zahlen, int suche){
-        int gefunden = -1;
-        
-        return gefunden;
+        int position = -1;
+        int zaehler = 0;
+        int mitte = zahlen.length / 2;
+        while (position == -1) {
+            if (zahlen[mitte] == suche){
+                position = mitte;
+                break;
+            }else{
+                if (zahlen[mitte] > suche){
+                    mitte = mitte / 2;
+                }else{
+                    mitte = ((zahlen.length) + mitte) /2;
+                }
+            }
+            zaehler++;
+            if (zaehler >= zahlen.length -1 ){
+                break;
+            }
+        }
+        return position;
     }
 }
