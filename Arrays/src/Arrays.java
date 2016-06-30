@@ -157,9 +157,9 @@ public class Arrays {
      * @param suche zu suchende Zahl
      * @return Position der gefundenen Zahl
      */
-    public int binSucheIter(int[] zahlen, int suche){
+    public int binSuche(int[] zahlen, int suche){
         int mitte = zahlen.length / 2;
-          return binSucheIter(zahlen,suche,-1,mitte,0);
+          return binSuche(zahlen,suche,-1,mitte,0);
     }
 
     /**
@@ -171,7 +171,7 @@ public class Arrays {
      * @param zaehler Zaehler fuer die Abbruchbedingung
      * @return Index an dem der Wert steht oder -1 bei nicht gefundenem Wert
      */
-    private int binSucheIter(int[] zahlen, int suche, int position, int mitte, int zaehler){
+    private int binSuche(int[] zahlen, int suche, int position, int mitte, int zaehler){
         if (position > -1){
             return position;
         }
@@ -188,7 +188,7 @@ public class Arrays {
             mitte = ((zahlen.length) + mitte) /2;
         }
         zaehler++;
-        return binSucheIter(zahlen,suche,position,mitte,zaehler);
+        return binSuche(zahlen,suche,position,mitte,zaehler);
     }
 
     /**
@@ -198,7 +198,7 @@ public class Arrays {
      * @param suche zu suchende Zahl
      * @return Position der gefundenen Zahl
      */
-    public int binSuche(int[] zahlen, int suche){
+    public int binSucheIter(int[] zahlen, int suche){
         int position = -1;
         int zaehler = 0;
         int mitte = zahlen.length / 2;

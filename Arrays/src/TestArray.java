@@ -3,6 +3,7 @@ public class TestArray {
         Arrays ar = new Arrays();
         System.out.println("Aufgabe 11.5:");
         aufgabe115(ar);
+        System.out.println("");
         System.out.println("Aufgabe 11.6:");
         aufgabe116(ar);
     }
@@ -37,16 +38,16 @@ public class TestArray {
         aufgabe116Iter(intArray,ar,16);
         aufgabe116Iter(intArray,ar,17);
     }
-    private static void aufgabe116Iter(int[] intArray, Arrays ar, int suche){
-        int temp = ar.binSucheIter(intArray,suche);
+    private static void aufgabe116Suche(int[] intArray, Arrays ar, int suche){
+        int temp = ar.binSuche(intArray,suche);
         if ( temp > -1 ){
             System.out.println("Element (" + suche + ") am Index " + temp + " gefunden");
         }else{
             System.out.println("Element (" + suche + ") nicht gefunden!");
         }
     }
-    private static void aufgabe116Suche(int[] intArray, Arrays ar, int suche){
-        int temp = ar.binSuche(intArray,suche);
+    private static void aufgabe116Iter(int[] intArray, Arrays ar, int suche){
+        int temp = ar.binSucheIter(intArray,suche);
         if ( temp > -1 ){
             System.out.println("Element (" + suche + ") am Index " + temp + " gefunden");
         }else{
