@@ -37,7 +37,7 @@ public class ArraySort {
      * Aufruf der Berechnung und Ausgabe des Pascalschen Dreiecks
      */
     private static void printPascalTriangle(){
-        int lines = 13;
+        int lines = 10;
         printTriangle(calcTriangle(lines));
     }
 
@@ -59,20 +59,36 @@ public class ArraySort {
 
     /**
      * Gibt das Pascalsche Dreieck in formatierter Form aus.
-     * Die Formatierung funktioniert bis zu 13 Zeilen, da danach
-     * 4-stellige Zahlen auftauchen.
      * @param triangle Matrix (Pascalsches Dreieck)
      */
     private static void printTriangle(int[][] triangle){
+        int length=findMaxLengthNumber(triangle);
         for (int i = 0; i < triangle.length; i++){
             for (int j = 0; j < triangle[i].length; j++){
                 if ( triangle[i][j] == 0 ){
-                    System.out.printf("%3s "," ");
+                    System.out.printf("%"+length+"s "," ");
                 }else {
-                    System.out.printf("%3d ", triangle[i][j]);
+                    System.out.printf("%"+length+"s ", triangle[i][j]);
                 }
             }
             System.out.println("");
         }
+    }
+
+    /**
+     * Gibt die Länge der größten Zahl im zweidimensionalen Array zurück
+     * @param triangle zweidimensionales Array
+     * @return Länge der größten Zahl (int)
+     */
+    private static int findMaxLengthNumber(int[][] triangle){
+        int max=triangle[0][0];
+        for (int i = 0; i < triangle.length;i++){
+            for (int j=0; j< triangle[i].length;j++){
+                if ( max < triangle[i][j]){
+                    max = triangle[i][j];
+                }
+            }
+        }
+        return String.valueOf(max).length();
     }
 }
